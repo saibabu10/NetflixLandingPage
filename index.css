@@ -1,3 +1,42 @@
-*{
-    background-color: black;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.nav-right{
+ display: flex; 
+}
+.netflix-img{
+    width: 70%;
+}
+
+.dropdown{
+padding-left: 10px;
+    width:150px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    font-weight: 600;
+}
+.dropdown span{
+    font-size: 1px;
+}
+select:active{
+    outline: none;
+    border: 4px solid rgb(10, 10, 10);  
+}
+.btn-signin{
+    font-size: 25px;
+    margin-left: 10px;
+    width:150px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-weight: 600;
 }
