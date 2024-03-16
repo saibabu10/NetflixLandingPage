@@ -130,3 +130,31 @@ footer{
 .footer-input{
     padding-bottom: 20px;
 }
+.section2{
+    margin-top: 10px;
+}
+.section2-title{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 1%;
+}
+.section2-content{
+    border: 5px solid blue;
+    border-radius: 20px;
+    height: 500px;
+    width: 20%;
+}
+.section2-content div:nth-child(odd){
+    padding: 10%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section2-content div:nth-child(even)
+{
+    padding: 0% 10%;
+    font-size: 20px;
+}
+.section2-flex{
+    display: flex;
+    justify-content:  space-between;
+}
