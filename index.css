@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     font-family:  Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif}
-
+h1{
+    display: none;
+}
 header {
     margin: 0 10%;
 }
@@ -219,5 +221,16 @@ footer{
     padding-top: 2%;
     font-size: 25px;
     color: rgba(179,179,179,1);
-
+}
+@media screen and (max-width: 1200px) {
+     .header-section,
+     .header-section1,
+     .section2,
+     .section3,
+     footer{
+        display: none;
+     }
+     h1{
+        display: block;
+     }
 }
