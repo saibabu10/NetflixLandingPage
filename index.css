@@ -158,3 +158,23 @@ footer{
     display: flex;
     justify-content:  space-between;
 }
+.section3{
+    padding: 3% 0;
+}
+.section3-title{
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.section3-content{
+    width: 50%;
+}
+.section3-content-sub{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.section3-content-sub{
+    border: 3px solid red;
+    margin: 10px;
+}
