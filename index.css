@@ -113,6 +113,7 @@ select:focus {
 }
 
 .btn-getstarted {
+    cursor: pointer;
     background-color: red;
     color: white;
     height: 80px;
