@@ -43,23 +43,24 @@ nav {
     font-size: 25px;
     outline: none;
     font-weight: 600;
+    border-radius: 12px;
 }
 
 .dropdown span {
     font-size: 1px;
 }
 
-select:active {
+select:focus {
     outline: none;
-    border: 4px solid rgb(10, 10, 10);  
+    border: 4px solid rgb(234, 232, 232);  
 }
 
 .btn-signin {
     font-size: 25px;
     margin-left: 10px;
-    width: 150px;
+    width: 100px;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 12px;
     border: none;
     color: white;
     background-color: red;
@@ -97,6 +98,7 @@ select:active {
     outline: none;
     border-radius: 10px;
     color: white;
+    border: 1px solid white;
 }
 
 .email-textbox:focus{
@@ -194,4 +196,29 @@ footer{
 }
 .footer-title{
     font-size: 35px;
+    padding-bottom: 10px;
+}
+.footer-call{
+    padding:0 0 3% 3%;
+    color: rgba(179,179,179,1);
+    font-size: 30px;
+}
+.footer-grid{
+    padding:0 0 3% 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-grid div{
+    width: 25%;
+    padding: 1% 0;
+    font-size: 25px;
+}
+.footer-grid div a{
+    color: rgba(179,179,179,1);
+}
+.footer-end{
+    padding-top: 2%;
+    font-size: 25px;
+    color: rgba(179,179,179,1);
+
 }
