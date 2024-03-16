@@ -184,6 +184,7 @@ footer{
     width: 70%;
 }
 .section3-content-sub{
+    cursor: pointer;
     font-size: 40px;
     display: flex;
     justify-content: space-between;
