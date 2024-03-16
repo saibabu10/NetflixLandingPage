@@ -95,10 +95,14 @@ select:active {
     padding: 2px;
     margin-right: 20px;
     outline: none;
+    border-radius: 10px;
+    color: white;
 }
 
 .email-textbox:active {
-    border: 3px solid white;
+    border: 5px solid white;
+    color: white;
+    outline: none;
 }
 
 .section-btn {
@@ -139,10 +143,10 @@ footer{
     padding-bottom: 1%;
 }
 .section2-content{
-    border: 5px solid blue;
+    background-color: rgba(30, 23, 42,1);
     border-radius: 20px;
     height: 500px;
-    width: 20%;
+    width: 22%;
 }
 .section2-content div:nth-child(odd){
     padding: 10%;
@@ -162,19 +166,23 @@ footer{
     padding: 3% 0;
 }
 .section3-title{
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 .section3-content{
-    width: 50%;
+    width: 70%;
 }
 .section3-content-sub{
+    font-size: 40px;
     display: flex;
     justify-content: space-between;
     padding: 3%;
-}
-.section3-content-sub{
-    border: 3px solid red;
+    background-color: rgb(46, 46, 46);
     margin: 10px;
+}
+.section3-content-sub div:nth-child(even)
+{
+   font-weight: 100;
+   font-size: 50px;
 }
