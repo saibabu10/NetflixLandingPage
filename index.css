@@ -142,6 +142,12 @@ footer{
     font-size: 40px;
     padding-bottom: 1%;
 }
+
+.section2-icon{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
 .section2-content{
     background-color: rgba(30, 23, 42,1);
     border-radius: 20px;
@@ -156,6 +162,7 @@ footer{
 .section2-content div:nth-child(even)
 {
     padding: 0% 10%;
+    /* margin-bottom: 40%; */
     font-size: 20px;
 }
 .section2-flex{
