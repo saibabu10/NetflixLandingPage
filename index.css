@@ -99,7 +99,7 @@ select:active {
     color: white;
 }
 
-.email-textbox:active {
+.email-textbox:focus{
     border: 5px solid white;
     color: white;
     outline: none;
@@ -162,7 +162,6 @@ footer{
 .section2-content div:nth-child(even)
 {
     padding: 0% 10%;
-    /* margin-bottom: 40%; */
     font-size: 20px;
 }
 .section2-flex{
@@ -192,4 +191,7 @@ footer{
 {
    font-weight: 100;
    font-size: 50px;
+}
+.footer-title{
+    font-size: 35px;
 }
