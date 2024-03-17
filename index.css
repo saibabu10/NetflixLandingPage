@@ -206,7 +206,7 @@ footer{
     padding: 3%;
     background-color: rgb(46, 46, 46);
     margin: 0px 10px 10px 10px;
-    /* display: none; */
+    display: none;
 }
 .footer-title{
     font-size: 35px;
