@@ -129,9 +129,7 @@ select:focus {
 .section2{
     margin: 0 10%;
 }
-.section3{
-    margin: 0 10%;
-}
+
 footer{
     margin: 0 10%;
 }
@@ -173,6 +171,7 @@ footer{
     justify-content:  space-between;
 }
 .section3{
+    margin: 0 10%;
     padding: 3% 0;
 }
 .section3-title{
@@ -190,7 +189,7 @@ footer{
     justify-content: space-between;
     padding: 3%;
     background-color: rgb(46, 46, 46);
-    margin: 10px;
+    margin: 0px 10px 3px 10px;
 }
 .section3-content-sub:hover{
     background-color: rgb(72, 72, 72);
@@ -199,6 +198,15 @@ footer{
 {
    font-weight: 100;
    font-size: 50px;
+}
+.section3-desc{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: rgb(46, 46, 46);
+    margin: 0px 10px 10px 10px;
+    /* display: none; */
 }
 .footer-title{
     font-size: 35px;
