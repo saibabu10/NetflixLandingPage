@@ -6,8 +6,7 @@ subSections.forEach(subSection => {
                     subSection.lastChild.innerHTML = "+"
             description.style.display = 'none'; 
         } else {
-           
-            subSection.lastChild.innerHTML = "X"
+            subSection.lastChild.innerHTML = "x"
             description.style.display = 'block'; 
         }
     });

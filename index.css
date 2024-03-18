@@ -12,6 +12,7 @@ header {
 }
 
 .header-section {
+    height:max-content;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-size: cover;
     background-position: center; 
@@ -24,9 +25,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px 30% 0px;
+    padding: 20px 0px 20% 0px;
 }
-
+.header-controller{
+    padding-bottom: 10%;
+}
 .nav-right {
     display: flex; 
 }
@@ -78,7 +81,7 @@ select:focus {
 
 .section-sub-heading {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -86,7 +89,7 @@ select:focus {
 .section-desc {
     color: white;
     font-size: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .email-textbox {
@@ -180,7 +183,7 @@ footer{
     padding-bottom: 20px;
 }
 .section3-content{
-    width: 70%;
+    width: 80%;
 }
 .section3-content-sub{
     cursor: pointer;
@@ -190,7 +193,7 @@ footer{
     justify-content: space-between;
     padding: 3%;
     background-color: rgb(46, 46, 46);
-    margin: 0px 10px 3px 10px;
+    margin: 0px 10px 10px 10px;
 }
 .section3-content-sub:hover{
     background-color: rgb(72, 72, 72);
@@ -210,8 +213,12 @@ footer{
     display: none;
 }
 .footer-title{
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 10px;
+    padding-left: 10px;
+}
+.footer-content{
+    padding-left: 10px;
 }
 .footer-call{
     padding:0 0 3% 3%;
@@ -235,6 +242,9 @@ footer{
     padding-top: 2%;
     font-size: 25px;
     color: rgba(179,179,179,1);
+}
+.footer-select{
+    padding-left: 40px;
 }
 @media screen and (max-width: 1200px) {
      .header-section,
