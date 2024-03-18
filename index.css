@@ -21,6 +21,7 @@ header {
 .header-section1{
     padding-bottom: 20px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -123,7 +124,8 @@ select:focus {
     border: none;
     width: 300px;
     border-radius: 4px;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .btn-getstarted:hover {
@@ -213,7 +215,7 @@ footer{
     display: none;
 }
 .footer-title{
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -246,6 +248,25 @@ footer{
 .footer-select{
     padding-left: 40px;
 }
+.email-textbox1 {
+    font-size: 20px;
+    width: 60%;
+    height: 70px;
+    background-color: black;
+    padding: 2px;
+    margin-right: 5px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.email-textbox1:focus{
+    border: 5px solid white;
+    color: white;
+    outline: none;
+}
+
 @media screen and (max-width: 1200px) {
      .header-section,
      .header-section1,
