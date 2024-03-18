@@ -186,6 +186,7 @@ footer{
     cursor: pointer;
     font-size: 40px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 3%;
     background-color: rgb(46, 46, 46);
@@ -196,8 +197,8 @@ footer{
 }
 .section3-content-sub div:nth-child(even)
 {
-   font-weight: 100;
-   font-size: 50px;
+   font-weight: 200;
+   font-size: 70px;
 }
 .section3-desc{
     font-size: 40px;
