@@ -64,7 +64,6 @@ select:focus {
     font-size: 25px;
     margin-left: 10px;
     width: 100px;
-    height: 40px;
     border-radius: 12px;
     border: none;
     color: white;
@@ -139,6 +138,8 @@ footer{
     margin: 0 10%;
 }
 .footer-input{
+    display: flex;
+    align-items: center;
     padding-bottom: 20px;
 }
 .section2{
