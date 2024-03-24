@@ -311,7 +311,7 @@ footer{
 @media screen and (max-width: 1200px) {
     .btn-signin{
         font-size: 5px;
-        width: 30%;
+        width: 50%;
     }
      .section3-content{
         width: 100%;
