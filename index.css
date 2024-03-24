@@ -337,15 +337,18 @@ footer{
         width: 5px;
         height: 5px;
      }
-     .section2{
+     .section2,
+     .section3{
         margin: 0;
         padding: 10px;
      }
      .section2-title,
+     .section3-title,
      .section2-desc-title{
         font-size: 20px;
      }
-     .section2-title{
+     .section2-title,
+     .section3-title{
         margin-left: 15px;
      }
      .section2-desc-content{
@@ -357,6 +360,17 @@ footer{
      .section2-flex{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .section3-content-sub{
+        height: 70px;
+    }
+    .section3-content-sub,
+    .section3-desc{
+        font-size: 20px;
+    }
+    .section3-content-sub div:nth-child(even)
+    {
+        font-size: 20px;
     }
 
 }
