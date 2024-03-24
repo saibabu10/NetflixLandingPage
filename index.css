@@ -337,6 +337,10 @@ footer{
         width: 5px;
         height: 5px;
      }
+     .section2{
+        margin: 0;
+        padding: 10px;
+     }
      .section2-title,
      .section2-desc-title{
         font-size: 20px;
@@ -344,4 +348,8 @@ footer{
      .section2-desc-content{
         font-size: 15px;
      }
+     .section2-flex{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
