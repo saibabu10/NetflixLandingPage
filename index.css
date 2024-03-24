@@ -329,29 +329,33 @@ footer{
         width: 100%;
      }
      .btn-getstarted{
-        font-size: 8px;
-        width: 15%;
-        height: 30px;
+        font-size: 20px;
+        width: 30%;
+        height: 50px;
      }
      svg{
-        width: 5px;
-        height: 5px;
+        width: 15px;
+        height: 15px;
      }
      .section2,
-     .section3{
+     .section3,
+     footer{
         margin: 0;
         padding: 10px;
      }
      .section2-title,
      .section3-title,
-     .section2-desc-title{
+     .section2-desc-title
+     {
         font-size: 20px;
      }
      .section2-title,
-     .section3-title{
+     .section3-title,
+     .footer-title{
         margin-left: 15px;
      }
-     .section2-desc-content{
+     .section2-desc-content,
+     .footer-title{
         font-size: 15px;
      }
      .section2-content{
@@ -371,6 +375,13 @@ footer{
     .section3-content-sub div:nth-child(even)
     {
         font-size: 20px;
+    }
+    .footer-input{
+        display: block;
+    }
+    .email-textbox1{
+        width: 98%;
+        margin-bottom: 10px;
     }
 
 }
