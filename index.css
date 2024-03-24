@@ -311,7 +311,6 @@ footer{
 @media screen and (max-width: 1200px) {
     .dropdown,
     .btn-signin{
-        height: 50%;
         font-size: 5px;
         width: 100%;
     }
