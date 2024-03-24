@@ -172,19 +172,22 @@ footer{
 .section2-content{
     background-color: rgb(31,21,39);
     border-radius: 12px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 }
-
+.section2-desc-title{
+    font-size: 20px;
+    font-weight:  bold;
+    padding: 5%;
+}
+.section2-desc-content{
+    font-size: 15px;
+    padding: 0%  5%;
+}
 .section2-desc{
     padding-bottom: 40%;
 }
-.section2-desc  div:nth-child(odd)
-{
-    font-weight: 700;
-    font-size: 25px;
-    padding-bottom: 10px;
-}
+
 .section2-icon{
     float: right;
     width:70px;
