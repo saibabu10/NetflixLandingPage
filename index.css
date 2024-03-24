@@ -319,4 +319,8 @@ footer{
      .section3-content{
         width: 100%;
      }
+     .section2-content,
+     .section2-desc{
+        padding-bottom: 10%;
+     }
 }
