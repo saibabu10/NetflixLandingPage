@@ -74,21 +74,25 @@ select:focus {
 
 .section-heading {
     color: white;
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .section-sub-heading {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     font-weight: 600;
     padding-bottom: 20px;
 }
 
 .section-desc {
     color: white;
-    font-size: 30px;
+    font-size: 15px;
+    text-align: center;
     padding-bottom: 20px;
 }
 input::placeholder{
@@ -98,6 +102,7 @@ input:focus::placeholder{
     font-size: 10px;
 }
 .email-textbox {
+    margin-left: 20%;
     font-size: 20px;
     width: 40%;
     height: 60px;
@@ -115,7 +120,6 @@ input:focus::placeholder{
     color: white;
     outline: none;
 }
-
 .section-btn {
     display: flex;
     align-items: center;
@@ -135,6 +139,9 @@ input:focus::placeholder{
 
 .btn-getstarted:hover {
     background-color: rgb(196, 16, 16);
+}
+.header-controller{
+    padding-bottom: 20%;
 }
 .section2{
     margin: 0 10%;
