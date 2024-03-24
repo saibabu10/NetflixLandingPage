@@ -310,8 +310,8 @@ footer{
 
 @media screen and (max-width: 1200px) {
     .btn-signin{
-        font-size: 9px;
-        width: 50%;
+        font-size: 5px;
+        width: 30%;
     }
      .section3-content{
         width: 100%;
@@ -330,7 +330,7 @@ footer{
      }
      .btn-getstarted{
         font-size: 20px;
-        width: 30%;
+        width: 40%;
         height: 50px;
      }
      svg{
@@ -359,7 +359,8 @@ footer{
      .section2-desc-content,
      .footer-title,
      .footer-call ,
-     .footer-grid div a{
+     .footer-grid div a,
+     .dropdown{
         font-size: 15px;
      }
      .section2-content{
