@@ -272,16 +272,15 @@ footer{
     outline: none;
 }
 
-/* @media screen and (max-width: 1200px) {
-     .header-section,
+@media screen and (max-width: 1200px) {
+     /* .header-section,
      .header-section1,
      .section2,
      .section3,
      footer{
         display: none;
+     } */
+     .section3-content{
+        width: 100%;
      }
-     h1{
-        display: block;
-        padding: 10%;
-     }
-} */
+}
