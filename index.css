@@ -225,7 +225,7 @@ footer{
     display: none;
 }
 .footer-title{
-    font-size: 25px;
+    font-size: 18px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -235,7 +235,7 @@ footer{
 .footer-call{
     padding:0 0 3% 3%;
     color: rgba(179,179,179,1);
-    font-size: 30px;
+    font-size: 18px;
 }
 .footer-grid{
     padding:0 0 3% 3%;
@@ -245,14 +245,14 @@ footer{
 .footer-grid div{
     width: 25%;
     padding: 1% 0;
-    font-size: 25px;
+    font-size: 18px;
 }
 .footer-grid div a{
     color: rgba(179,179,179,1);
 }
 .footer-end{
-    padding-top: 2%;
-    font-size: 25px;
+    padding:5% 0 10% 0;
+    font-size: 15px;
     color: rgba(179,179,179,1);
 }
 .footer-select{
@@ -260,19 +260,19 @@ footer{
 }
 .email-textbox1 {
     font-size: 20px;
-    width: 60%;
-    height: 70px;
+    width: 70%;
+    height: 50px;
     background-color: black;
     padding: 2px;
     margin-right: 5px;
     outline: none;
     border-radius: 10px;
     color: white;
-    border: 1px solid white;
+    border: 0.5px solid white;
 }
 
 .email-textbox1:focus{
-    border: 5px solid white;
+    border: 3px solid white;
     color: white;
     outline: none;
 }
