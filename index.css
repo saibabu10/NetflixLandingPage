@@ -311,8 +311,9 @@ footer{
 @media screen and (max-width: 1200px) {
     .dropdown,
     .btn-signin{
+        height: 50%;
         font-size: 5px;
-        width: 50%;
+        width: 100%;
     }
      .section3-content{
         width: 100%;
@@ -331,7 +332,7 @@ footer{
      }
      .btn-getstarted{
         font-size: 20px;
-        width: 40%;
+        width: 50%;
         height: 50px;
      }
      svg{
