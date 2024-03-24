@@ -12,17 +12,32 @@ header {
 }
 
 .header-section {
+    position: relative;
     height:max-content;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;  
 }
+.header-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
 .header-section1{
     padding-bottom: 20px;
+    position: relative; 
+    z-index: 2;
 }
 
 nav {
+    position: relative; 
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
