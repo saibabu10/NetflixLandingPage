@@ -36,16 +36,16 @@ nav {
 }
 
 .netflix-img {
-    width: 70%;
+    width: 50%;
 }
 
 .dropdown {
-    padding-left: 10px;
-    width: 150px;
-    height: 40px;
+    padding: 20px;
+    width: 80%;
+    height: 30px;
     background-color: black;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     outline: none;
     font-weight: 600;
     border-radius: 12px;
@@ -57,14 +57,14 @@ nav {
 
 select:focus {
     outline: none;
-    border: 4px solid rgb(234, 232, 232);  
+    border: 3px solid rgb(234, 232, 232);  
 }
 
 .btn-signin {
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 10px;
-    width: 100px;
-    border-radius: 12px;
+    width: 55%;
+    border-radius: 05px;
     border: none;
     color: white;
     background-color: red;
