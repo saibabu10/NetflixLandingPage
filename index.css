@@ -163,9 +163,18 @@ footer{
     padding: 10px;
     margin: 10px;
 }
+.section2-desc{
+    padding-bottom: 40%;
+}
+.section2-desc  div:nth-child(odd)
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
 .section2-icon{
-    width:100px;
-    height: 100px;
+    float: right;
+    width:70px;
+    height: 70px;
 }
 .section3{
     margin: 0 10%;
