@@ -309,18 +309,31 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-     /* .header-section,
-     .header-section1,
-     .section2,
-     .section3,
-     footer{
-        display: none;
-     } */
+    .btn-signin{
+        font-size: 9px;
+        width: 50%;
+    }
      .section3-content{
         width: 100%;
      }
      .section2-content,
      .section2-desc{
         padding-bottom: 10%;
+     }
+     .section-btn{
+        display: flex;
+        flex-direction: column;
+     }
+     .email-textbox{
+        margin: 0 0 10px 0;
+        width: 100%;
+     }
+     .btn-getstarted{
+        font-size: 11px;
+        width: 20%;
+     }
+     svg{
+        width: 10px;
+        height: 10px;
      }
 }
