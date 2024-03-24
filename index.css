@@ -309,6 +309,7 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
+    .dropdown,
     .btn-signin{
         font-size: 5px;
         width: 50%;
@@ -359,8 +360,7 @@ footer{
      .section2-desc-content,
      .footer-title,
      .footer-call ,
-     .footer-grid div a,
-     .dropdown{
+     .footer-grid div a{
         font-size: 15px;
      }
      .section2-content{
