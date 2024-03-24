@@ -351,11 +351,15 @@ footer{
      }
      .section2-title,
      .section3-title,
-     .footer-title{
+     .footer-title,
+     .footer-call,
+     .footer-grid div a{
         margin-left: 15px;
      }
      .section2-desc-content,
-     .footer-title{
+     .footer-title,
+     .footer-call ,
+     .footer-grid div a{
         font-size: 15px;
      }
      .section2-content{
@@ -383,5 +387,13 @@ footer{
         width: 98%;
         margin-bottom: 10px;
     }
-
+    .footer-grid {
+        display: grid;
+    }
+    .footer-grid div {
+        width: calc(80% - 10px);
+    }
+    .footer-select{
+        margin: 5% 0;
+    }
 }
