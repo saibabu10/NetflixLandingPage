@@ -308,11 +308,6 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    .dropdown{
-        width:200px;
-        font-size: 5px;
-        color: rgb(255, 0, 0);
-    }
     .nav-right{
         display: none;
     }
