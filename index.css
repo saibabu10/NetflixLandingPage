@@ -311,6 +311,7 @@ footer{
     .dropdown{
         width:200px;
         font-size: 5px;
+        color: rgb(255, 255, 255);
     }
     .nav-right{
         display: none;
