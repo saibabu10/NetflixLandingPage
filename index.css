@@ -310,7 +310,7 @@ footer{
 @media screen and (max-width: 1200px) {
     .dropdown{
         width:200px;
-        font-size: 10px;
+        font-size: 5px;
     }
     .nav-right{
         display: none;
