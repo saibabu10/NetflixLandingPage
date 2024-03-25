@@ -308,13 +308,12 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    .dropdown,
-    .btn-signin{
-        font-size: 5px;
+    nav{
+        display: flex;
+        justify-content: center;
     }
     .nav-right{
-        display: flex;
-        justify-content: space-evenly;
+        display: none;
     }
      .section3-content{
         width: 100%;
