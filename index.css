@@ -308,9 +308,8 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    nav{
-        display: flex;
-        justify-content: center;
+    .dropdown{
+        width:200px;
     }
     .nav-right{
         display: none;
